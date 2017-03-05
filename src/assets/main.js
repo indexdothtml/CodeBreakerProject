@@ -9,6 +9,6 @@ function guess() {
 //implement new functions here
 
 function setHiddenFields(){
-  let answer = Math.floor(Math.random() * (9999 - 0)) + 0;
+  answer = Math.floor(Math.random() * (9999 - 0)) + 0;
   return answer;
 }
