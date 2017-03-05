@@ -10,5 +10,5 @@ function guess() {
 
 function setHiddenFields(){
   answer.value = Math.floor(Math.random() * (9999 - 0)) + 0;
-  return answer;
+  return answer.value;
 }
